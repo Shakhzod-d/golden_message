@@ -54,6 +54,7 @@ body {
   min-height: 539px;
   margin-bottom: 80px;
   .container {
+    max-width: 1220px;
     span {
       font-size: 16px;
       font-weight: 400;
