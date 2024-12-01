@@ -26,7 +26,7 @@ function featureCardList(data) {
     result += `
       <div class="card">
             <div class="img">
-              <p>0${item.id}</p>
+              <p class="pattern">0${item.id}</p>
               <img src="${item.img}" alt="aa" />
             </div>
             <div class="text_wrapper">

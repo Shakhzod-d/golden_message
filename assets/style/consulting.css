@@ -2,10 +2,8 @@
 @import url("./style.css");
 
 .service-section {
-  padding: 50px;
   margin-bottom: 80px;
   .container {
-    padding: 50px;
     text-align: center;
 
     p {
@@ -209,11 +207,13 @@
     }
 
     .cards {
+      display: flex;
+      flex-direction: column;
       .card {
         display: flex;
         align-items: center;
         gap: 57px;
-        margin-bottom: 48px;
+        /* margin-bottom: 48px; */
         b {
           font-family: "Montserrat", sans-serif;
           font-size: 16px;
